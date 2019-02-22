@@ -11,7 +11,7 @@ exports.blog_create = function (req, res,next) {
     let blog = new Blog(
         {
             name: req.body.name,
-            email: req.body.esssssssssssssssmail,
+            email: req.body.email,
             phoneno:req.body.phoneno,
             description:requ.body.description
         }
