@@ -13,7 +13,7 @@ exports.blog_create = function (req, res,next) {
             name: req.body.name,
             email: req.body.email,
             phoneno:req.body.phoneno,
-            description:requ.body.description
+            description:req.body.description
         }
     );
 
